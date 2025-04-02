@@ -1,0 +1,11 @@
+name: sharedHealth
+version: '1.3'
+main: com.danrom.sharedhealth.SharedHealth
+api-version: '1.21'
+commands:
+  linkhealth:
+    usage: /linkhealth <player1> <player2>
+    description: Combines the health of two players into one.
+  unlinkhealth:
+    usage: /unlinkhealth
+    description: Unlinks the health of two players
